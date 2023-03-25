@@ -1,0 +1,529 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //exercicio 1
+    int num;
+    printf("informe um numero inteiro: ");
+    scanf("%d",&num);
+    printf("o numero inteiro e %d\n", num);
+
+    return 0;
+}
+  
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 2
+    float num;
+    printf ("informe um numero real: ");
+    scanf ("%f", &num);
+    printf("o numero real e: %f\n", num);
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 3
+    int a, b, c, soma;
+    printf ("digite o primeiro numero:");
+    scanf ("%d", &a);
+    printf("digite o segundo numero:");
+    scanf("%d", &b);
+    printf("digite o terceiro numero");
+    scanf ("%d", &c);
+    soma = a + b + c;
+    printf("o valor da soma desses numeros e: %d\n", soma);
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 4
+    float num, quadrado;
+    printf ("insira um numero real:");
+    scanf ("%f", &num);
+    quadrado = num * num;
+    printf ("num elevado ao quadrado e: %f\n", quadrado);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 5
+    float  num, q;
+    printf("insira um numero real:");
+    scanf("%f", &num);
+    q = num / 5;
+printf("a quinta parte desse numeo é: %f\n", q);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 6
+    float tfare, tcelsius;
+    printf("informe uma temperatura em Celsius:");
+    scanf("%f", &tcelsius);
+    tfare = tcelsius*(9.0 / 5.0 ) + 32.0;
+    printf("a temperatura informada em graus Fahrenheit e: %f\n", tfare);
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 7
+    float tfare, tcelsius;
+    printf("informe uma temperatura em Fahrenheit:");
+    scanf("%f", &tfare);
+    tcelsius = 5.0 * (tfare - 32.0) / 9.0;
+    printf("a temperatura informada em graus Celsius e: %f\n", tcelsius );
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 8
+    float kelvin, celsius;
+    printf ("informe uma temperatura em graus Kelvin:");
+    scanf ("%f", &kelvin);
+    celsius = kelvin - 273.15;
+    printf("A temperatura informada em graus Celsius é %f\n", celsius);
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 9
+    float kelvin, celsius;
+    printf ("informe uma temperatura em graus Celsius:");
+    scanf ("%f", &celsius);
+    kelvin = celsius + 273.15;
+    printf("A temperatura informada em graus Kelvin e %f\n", kelvin);
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 10
+    int kmh, ms;
+    printf("informe uma velocidade em kM/h:");
+    scanf("%d", &kmh);
+    ms = kmh / 3.6;
+    printf("a velocidade informada em m/s e : %d\n", ms);
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 11
+    float kmh, ms;
+    printf("informe uma velocidade em metros por segundo:");
+    scanf("%f", &ms);
+    kmh = ms * 3.6;
+    printf("A velocidade informada em Km/h e: %f\n", kmh);
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 12
+    float m, k;
+    printf("informe uma distancia em milhas:");
+    scanf ("%f", &m);
+    k = m * 1.61;
+    printf ("a distancia informada em quilometro e: %f\n", k);
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 13
+    float m, k;
+    printf("informe uma distancia em quilometros:");
+    scanf ("%f", &k);
+    m = k / 1.61;
+    printf ("a distancia informada em milhas e: %f\n", m);
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 14
+    float r, g;
+    printf ("informe um angulo em graus:");
+    scanf("%f", &g);
+    r = g * 3.141592/180;
+    printf("o angulo informado em radianos e: %f\n", r);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 15
+    float r, g;
+    printf ("informe um angulo em radianos:");
+    scanf("%f", &r);
+    g = r * 180/3.141592;
+    printf("o angulo informado em graus e: %f\n", g);
+
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 16
+    float p, c;
+    printf(" informe um valor em polegadas:");
+    scanf("%f", &p);
+    c = p * 2.54;
+    printf ("a medida em centimetros e : %f\n", c);
+
+
+
+    return 0;
+}
+
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 17
+    float p, c;
+    printf(" informe um valor em centimetros:");
+    scanf("%f", &c);
+    p = c / 2.54;
+    printf ("a medida em polegadas e : %f\n", p);
+
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 18
+    float m3, vol;
+    printf("informe um valor em m3:");
+    scanf("%f", &m3);
+    vol = m3 * 1000;
+    printf("o valor em volume e: %f\n", vol);
+
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 19
+    float l, m3;
+    printf("informe um valor em litros ");
+    scanf("%f", &l);
+    m3 = l / 1000;
+    printf("o valor informado em metros cubicos e %.2f\n", m3);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 20
+    float q, l;
+    printf("informe um valor em quilograma: ");
+    scanf("%f", &q);
+    l =  q / 0.45;
+    printf("o valor informado em libras e %.2f\n", l);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 21
+    float q, l;
+    printf("informe um valor em libras: ");
+    scanf("%f", &l);
+    q =  l * 0.45;
+    printf("o valor informado em quilogramas e %.2f\n", q);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 22
+    float j, m;
+    printf("informe um valor em jardas: ");
+    scanf("%f", &j);
+    m =  j * 0.91;
+    printf("o valor informado em metros e %.2f\n", m);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 23
+    float j, m;
+    printf("informe um valor em metros: ");
+    scanf("%f", &m);
+    j =  m / 0.91;
+    printf("o valor informado em jardas e %.2f\n", j);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 24
+    float a, m2;
+    printf("informe um valor em metros quadrados: ");
+    scanf("%f", &m2);
+    a =  m2 * 0.000247;
+    printf("o valor informado em acres e %.2f\n", a);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 25
+    float a, m2;
+    printf("informe um valor em acres: ");
+    scanf("%f", &a);
+    m2 =  a * 4048.58;
+    printf("o valor informado em metros quadrados e %.2f\n", m2);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 26
+    float h, m2;
+    printf("informe um valor em metros quadrados: ");
+    scanf("%f", &m2);
+    h =  m2 * 0.0001;
+    printf("o valor informado em hectares e %.2f\n", h);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 27
+    float h, m2;
+    printf("informe um valor em hectares: ");
+    scanf("%f", &h);
+    m2 =  h * 10000;
+    printf("o valor informado em metros quadrados e %.2f\n", m2);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    //exercicio 28
+   int a, b, c, soma;
+   printf("informe 1 numero inteiro: ");
+   scanf("%d", &a);
+   printf("informe outro numero inteiro: ");
+   scanf("%d", &b);
+   printf("informe outro numero inteiro: ");
+   scanf("%d", &c);
+   soma = a*a + b*b + c*c;
+   printf ("o resultado da soma dos quadrados desses numeros e: %d\n", soma);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 29
+  float nota1, nota2, nota3, nota4, media;
+  printf ("informe o valor de uma nota:");
+  scanf("%f", &nota1);
+  printf ("informe o valor de outra nota:");
+  scanf("%f", &nota2);
+  printf ("informe o valor de mais uma nota:");
+  scanf("%f", &nota3);
+  printf ("informe o valor da ultima nota:");
+  scanf("%f", &nota4);
+  media =  (nota1 + nota2 + nota3 + nota4) / 4;
+  printf("o valor da media entre as notas informadas e: %.2f\n", media);
+
+
+    return 0;
+}
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 30
+    float r, d;
+ printf("informe um valor em Real brasileiro:");
+ scanf("%f", &r);
+ d = r / 5.28;
+ printf("o valor informado na cotacao atual, em dolar, e: %.2f\n", d);
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+int main()
+{
+    //exercicio 31
+    int a, b, c;
+    printf("informe um numero inteiro:");
+    scanf("%d", &a);
+    b = a-1;
+    c = a+1;
+    printf("o antecessor do numero informado e: %d, e o sucessor e: %d\n", b, c);
+
+
+    return 0;
+}
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+int main()
+{
+    //exercicio 32
+    int a, b, c;
+    printf("informe um numero inteiro:");
+    scanf("%d", &a);
+    b = (a*3+1) + (a*2-1);
+
+    printf("quanto a esse numero, a soma do sucessor de seu triplo com o antecessor de seu dobro e: %d\n", b );
+
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    //exercicio 33
+ float a, l;
+ printf("informe o tamanho do lado de um quadradro:");
+ scanf("%f", &a);
+ l = pow(a,2);
+ printf("a area desse quadrado e: %.2f\n", l);
+
+
+
+    return 0;
+}
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    //exercicio 34
+    float r, a;
+    printf("informe o valor do raio de um circulo qualquer:");
+    scanf("%f",&r);
+    a =  3.141592 * pow(r,2);
+    printf ("a area desse ciurculo e: %.2f\n", a);
+
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
